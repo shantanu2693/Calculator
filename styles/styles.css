@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     height: 100vh;
     width: 100vw;
 }
@@ -11,8 +10,7 @@
 .calculator {
     border: 10px solid black;
     flex: none;
-    width: 25vw;
-    height: 500px;
+    aspect-ratio: 1.02/1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,11 +29,15 @@
     margin-left: 2vw;
     margin-right: 2vw;
     background-color: #FFFACD;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    text-align: right;
 
 }
 
 .rowOne {
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -43,7 +45,6 @@
 }
 
 .rowTwo {
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -51,7 +52,6 @@
 }
 
 .rowThree {
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -59,7 +59,6 @@
 }
 
 .rowFour {
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -67,7 +66,6 @@
 }
 
 .rowFive {
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -76,7 +74,7 @@
 
 button {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;;
+    font-size: 1.5vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
     min-width:4.5vw;
@@ -85,6 +83,6 @@ button {
     background-color: #EC729C;
 }
 
-.equalsButton {
+#equalsButton {
     min-width: 10vw;
 }
